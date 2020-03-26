@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Welcome to my personal website! My name is Fendy Soegiono and I am Front End Software Engineer.">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Front End, software engineer, personal website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Fendy Soegiono">
+
+    <script defer src="../js/navigation.js"></script>
+    <script defer src="../js/footer.js"></script>
+
+    <link rel="icon" href='../assets/favicon.png' />
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./projects.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> Fendy Soegiono Projects </title>
+
+  </head>
+
+  <body>
+    <section class="grid-container">
+      <nav class="nav-flex-container">
+        <a href="../index.html"> Fendy Soegiono </a>
+        <a href="#" class="nav-toogle" onclick="onClickMenu()" aria-labelledby="menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <ul class="nav-collapse" id="nav-menu">
+          <li>
+            <a id="projects">
+              Projects
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <header class="header-flex-container">
+        <h1 class="header-name"> Projects </h1>
+      </header>
+
+      <main class="main-project-flex-container">
+        <section>
+          <a role="website-link" href="https://www.npmjs.com/package/aws-api-gateway-client-fix" target="_blank">
+            <img src="../assets/aws.png" alt="AWS" />
+          </a>
+          <div>
+            <h2> aws-api-gateway-client-fix </h2>
+            <a role="github" href="https://github.com/fsoegiono/aws-api-gateway-client-fix" target="_blank" class="github-link">
+              https://github.com/fsoegiono/aws-api-gateway-client-fix
+            </a>
+            <p>
+              Fixed bug and contributed to NPM open source project that allows web client to make request to AWS API Gateway written in JavaScript.
+              The project was forked from <a href="https://github.com/kndt84/aws-api-gateway-client" target="_blank"> https://github.com/kndt84/aws-api-gateway-client</a>.
+            </p>
+          </div>
+        </section>
+        <section>
+          <a role="website-link" href="https://apkpure.com/beecalm/wecare.beecalm" target="_blank">
+            <img src="../assets/beecalm.png" alt="BeeCalm" />
+          </a>
+          <div>
+            <h2> BeeCalm </h2>
+            <a role="github" href="https://github.com/fsoegiono/BeeCalm" target="_blank" class="github-link">
+              https://github.com/fsoegiono/BeeCalm
+            </a>
+            <p>
+              BeeCalm is a mindfullness Android mobile and watch application for people suffering panic attacks.
+              It provides guided meditation on each sessions and more in-depth instructions on how to use each one and why each is effective.
+              BeeCalm was a semester long project developed using Java.
+            </p>
+          </div>
+        </section>
+        <section>
+          <a role="website-link" href="https://nameless-basin-4251.herokuapp.com/index" target="_blank">
+            <img src="../assets/bytlyn.png" alt="Bytlyn" />
+          </a>
+          <div>
+            <h2> Bytlyn </h2>
+            <a role="github" href="https://github.com/fsoegiono/Bytlyn" target="_blank" class="github-link">
+              https://github.com/fsoegiono/Bytlyn
+            </a>
+            <p>
+              Bytlyn is an free ordering food app helping restaurants to manage their order and connects with their customer.
+              Customers can also see estimated waiting time and how many people are in the waitlist of each restaurant.
+              Bytlyn was a semester long project developed using HTML, CSS, Ruby on Rails, and PostgreSQL.
+            </p>
+          </div>
+        </section>
+        <section>
+          <a role="website-link" href="../index.html" target="_blank">
+            <img src="../assets/personal-blog.png" alt="Personal blog" />
+          </a>
+          <div>
+            <h2> Personal Blog </h2>
+            <a role="github" href="https://github.com/fsoegiono/personal-website" target="_blank" class="github-link">
+              https://github.com/fsoegiono/personal-website
+            </a>
+            <p>
+              Built personal blog responsive homepage layout using HTML, CSS, CSS Flexbox, CSS grid, and JavaScript.
+            </p>
+          </div>
+        </section>
+        <section>
+          <img src="../assets/pacman_search.png" alt="Pacman" />
+          <div>
+            <h2> Search Algorithms </h2>
+            <a role="github" href="https://github.com/fsoegiono/Search" target="_blank" class="github-link">
+              https://github.com/fsoegiono/Search
+            </a>
+            <p>
+              Built general search algorithm (DFS, BFS, Uniform Cost Search, and A* Search) and apply them to Pacman maze world.
+              Academic project written in Python.
+            </p>
+          </div>
+        </section>
+        <section>
+          <img src="../assets/ant.png" alt="Ants" />
+          <div>
+            <h2> Ants vs Bees </h2>
+            <a role="github" href="https://github.com/fsoegiono/Ants" target="_blank" class="github-link">
+              https://github.com/fsoegiono/Ants
+            </a>
+            <p>
+              A tower defense game inspired by PopCap Games' Plants Vs. Zombies.
+              Acacdemic project apply paradigms of functional and object-oriented programming written in Python.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        © <span id="copy-right-year"></span> Fendy Soegiono.
+      </footer>
+    </section>
+  </body>
+</html>

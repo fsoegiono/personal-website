@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Welcome to my personal website! My name is Fendy Soegiono and I am Front End Software Engineer.">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Front End, software engineer, personal website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Fendy Soegiono">
+
+    <script defer src="./js/navigation.js"></script>
+    <script defer src="./js/footer.js"></script>
+
+    <link rel="icon" href='./assets/favicon.png' />
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> Fendy Soegiono Front End Engineer Personal Website </title>
+
+  </head>
+
+  <body>
+    <section class="grid-container">
+      <nav class="nav-flex-container">
+        <a href="index.html"> Fendy Soegiono </a>
+        <a href="#" class="nav-toogle" onclick="onClickMenu()" aria-labelledby="menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <ul class="nav-collapse" id="nav-menu">
+          <li>
+            <a href="component/projects.html">
+              <span>Projects<span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <header class="header-flex-container">
+        <img class="profile-picture" src="./assets/me.jpeg" alt="Fendy Soegiono" />
+        <h1 class="full-name"> Fendy Soegiono </h1>
+        <h2 class="description">
+          Software Engineer <br>
+          Experience developing browser-based web applications for industrial and commercial purposes
+        </h2>
+      </header>
+
+      <main class="main-flex-container">
+        <section class="width-about-me" role="aboutMe">
+          <h3> About Me </h3>
+          <p class="about-me-description">
+            Front End Engineer living in San Francisco Bay Area.
+            Most recently, I worked for <a href="https://www.jupigo.co" target="_blank">Jupigo</a>, an on-demand trucking platform that connects shippers with driver contractors.
+            My role was Full Stack Engineer on the web-based application building RESTful API running in Node.js server as well as writing in HTML, CSS, JavaScript, and Angular. <br><br>
+            I am currently active looking for an opportunity where I can grow my professional career as front end developer.
+          </p>
+        </section>
+        <section role="contact">
+          <h3> Contact </h3>
+          <div role="links" class="links-container">
+            <a href="https://www.linkedin.com/in/fendysoegiono/" target="_blank">
+              <i class="fa fa-fw fa-linkedin-square fa-2x"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://www.github.com/fsoegiono/" target="_blank">
+              <i class="fa fa-fw fa-github-square fa-2x"></i>
+              <span> Github </span>
+            </a>
+            <a href="mailto:fsoegiono645@gmail.com" target="_blank">
+              <i class="fa fa-fw fa-envelope-square fa-2x"></i>
+              <span> Email </span>
+            </a>
+          </div>
+        </section>
+      </main>
+      <footer>
+        © <span id="copy-right-year"></span> Fendy Soegiono.
+      </footer>
+    </section>
+  </body>
+</html>
